@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function BasicExample() {
+function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -21,11 +21,11 @@ function BasicExample() {
             <Nav.Link href="#contact">
               <Link to="/contact">Contact</Link>
             </Nav.Link>
-          </Nav>
+          </Nav> 
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
 
-export default BasicExample;
+export default Header;
