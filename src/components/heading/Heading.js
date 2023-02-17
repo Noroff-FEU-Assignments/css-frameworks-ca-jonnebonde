@@ -32,7 +32,7 @@ function Heading() {
               Contact
             </NavLink>
           </Nav>
-          <Form className="d-flex">
+          <Form className="d-flex search-container">
             <Form.Control
               type="search"
               placeholder="Search"
