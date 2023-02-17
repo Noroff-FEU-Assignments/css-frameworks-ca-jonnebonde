@@ -1,10 +1,13 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import Carousel from './carousel/Carousel';
+
 
 function Home() {
   return (
-    <Container>Home</Container>
-  )
+    <>
+      <Carousel />
+    </>
+     )
 }
 
 export default Home;

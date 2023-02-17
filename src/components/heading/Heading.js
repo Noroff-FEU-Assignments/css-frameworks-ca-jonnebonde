@@ -14,10 +14,12 @@ function Heading() {
   return (
     <Navbar bg="light" expand="md">
       <Container>
+        <div className='nav-container-mobile'>
         <Navbar.Brand href="#home" to="/">
             The YAY Company
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
+        </div>
         <Navbar.Collapse id="navbarScroll">
           <Nav activeKey={location.pathname} className="me-auto">
             <NavLink href="#home" to="/">
