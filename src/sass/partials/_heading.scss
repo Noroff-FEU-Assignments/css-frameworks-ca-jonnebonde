@@ -1,0 +1,36 @@
+.navbar-brand {
+    margin-right: 1em;
+    color: $color-primary;
+    text-decoration: none;
+    font: italic bold 20px $font-secondary;
+}
+
+.navbar-mobile-container {
+
+  @media (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+  }
+}
+
+.active {
+  background-color: $color-background-primary;
+}
+
+.navbar-nav {
+  a {
+    color: $color-links;
+    text-decoration: none;
+    padding: 4px 15px;
+    border-radius: 3px;
+  }
+
+  a:hover {
+    @extend .active;
+  }
+}
+
+
+

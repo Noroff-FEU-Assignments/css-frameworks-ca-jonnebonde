@@ -1,0 +1,32 @@
+// colours 
+
+$color-primary: #E92569;
+$color-secondary: #767676;
+
+$color-links: #0A0A0A;
+
+$color-background-primary: #FFFFFF;
+$color-background-secondary: #EFEFEF;
+
+$color-background-primary-gradient: #E5E5E5;
+$color-background-secondary-gradient: #F5F5F5;
+
+$color-form-website-input: #C7C7C7;
+
+
+// fonts
+
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Playfair Display', serif;
+
+//customs
+
+
+$theme-colors: (
+  "light": $color-background-secondary,
+  "searchButton": $color-primary,
+);
+
+
+
+$font-family-sans-serif: $font-primary;
