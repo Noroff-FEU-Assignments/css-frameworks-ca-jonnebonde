@@ -12,16 +12,16 @@ function Heading() {
   const location = useLocation();
 
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar bg="light" expand="md" className='' >
       <Container>
         <div className='nav-container-mobile'>
-        <Navbar.Brand href="#home" to="/">
+        <Navbar.Brand href="/">
             The YAY Company
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
         </div>
         <Navbar.Collapse id="navbarScroll">
-          <Nav activeKey={location.pathname} className="me-auto">
+          <Nav  className="me-auto" activeKey={location.pathname}>
             <NavLink href="#home" to="/">
               Home
             </NavLink>

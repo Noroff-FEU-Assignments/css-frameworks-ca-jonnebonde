@@ -1,0 +1,20 @@
+.carousel {
+  z-index: 1;
+}
+
+.carousel-indicators {
+
+  button {
+    border-radius: 2px;
+    border: none !important;  
+  }
+
+  button:hover {
+    background-color: $color-primary;
+  }
+
+  .active {
+    background-color: $color-primary; 
+  } 
+
+}

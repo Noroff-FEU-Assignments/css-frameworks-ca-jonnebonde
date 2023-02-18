@@ -5,22 +5,22 @@ import carouselImages from '../../../../assets/images/carousel';
 function ImageSlider() {
 
   return (
-    <Carousel>
-    <Carousel.Item interval={null}>
+    <Carousel interval={null} controls={false} defaultActiveIndex={1}>
+    <Carousel.Item>
       <img
         className="d-block w-100"
-        src={carouselImages.carousel1}
+        src={carouselImages.carousel2}
         alt="First slide"
       />
     </Carousel.Item>
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src={carouselImages.carousel2}
+        src={carouselImages.carousel1}
         alt="Second slide"
       />
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item >
       <img
         className="d-block w-100"
         src={carouselImages.carousel3}
