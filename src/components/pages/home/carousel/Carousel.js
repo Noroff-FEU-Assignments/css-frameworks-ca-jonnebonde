@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import carouselImages from '../../../../assets/images/carousel';
+import carouselImages from '../../../../assets/carousel/CarouselImages';
 
 function ImageSlider() {
 

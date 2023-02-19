@@ -2,6 +2,13 @@
 
   @media (max-width: 768px) {
 
+    &{
+      position: absolute;
+      width: 100%;
+      z-index: 999999;
+      padding: 0;
+    }
+
     .container {
       padding: 0;
       max-width: 100%;
@@ -12,20 +19,33 @@
       width: 90%;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 1em;
+      padding: 1em 0;
     }
   
     form {
       width: 90%;
       margin: 0 auto;
+      padding: 3em 0;
+
+      input {
+        height: 50px;
+      }
+      button {
+        height: 50px;
+      }
     }
 
     .navbar-nav {
-      margin-bottom: 2em;
+
       a {
         padding: 0.8em 3em;
         border-radius: 0;
       }
+
+    }
+
+    .navbar-collapse {
+      @include dropshadow(0, 6px, 12px, 0.16)
     }
 }
 
@@ -43,6 +63,7 @@
 }
 
 .navbar-nav {
+  
   a {
     color: $color-links;
     text-decoration: none;

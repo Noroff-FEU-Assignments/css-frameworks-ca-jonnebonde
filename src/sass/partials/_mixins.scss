@@ -2,3 +2,6 @@
   background-image: radial-gradient(circle, $inner-color, $outer-color);
 }
 
+@mixin dropshadow($h-offset, $v-offset, $b-radius, $amount) {
+  box-shadow: $h-offset $v-offset $b-radius rgba(0, 0, 0, $amount);
+}

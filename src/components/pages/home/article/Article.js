@@ -1,11 +1,13 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import Heading from './heading/Heading';
+import Content from './content/Content';
 
 function Article() {
   return (
-    <Container>
-      <h2>We do YAY things</h2>
-    </Container>
+      <div className='home__article-container mt-5'>
+        <Heading />
+        <Content />
+      </div>
   )
 }
 

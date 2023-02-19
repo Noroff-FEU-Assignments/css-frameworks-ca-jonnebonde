@@ -1,10 +1,18 @@
 .carousel {
-  
+  position: relative;
+
   img {
     max-height: 462px;
     min-height: 287px;
     object-fit: cover;
   }
+
+  @media (max-width: 768px) { 
+    & {
+      margin-top: 71.33px;
+    }
+  }
+
 }
 
 .carousel-indicators {
