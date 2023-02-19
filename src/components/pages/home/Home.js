@@ -11,11 +11,13 @@ function Home() {
       <Carousel />
       <Container>
         <Article />
-        <HomeTabs />
+          <div className='d-none d-md-block'>
+            <HomeTabs />
+          </div>
       </Container>
-      
+
     </>
-    )
+  )
 }
 
 export default Home;
