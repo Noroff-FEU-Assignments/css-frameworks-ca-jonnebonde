@@ -4,7 +4,7 @@ import Content from './content/Content';
 
 function Article() {
   return (
-      <div className='home__article-container mt-5'>
+      <div className='home__article-container mt-5 mb-5'>
         <Heading />
         <Content />
       </div>
