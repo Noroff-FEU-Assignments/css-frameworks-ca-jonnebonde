@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 function News() {
   return (
-    <div>News</div>
+    <>
+      <Helmet>
+        <title>The YAY Company | News</title>
+      </Helmet>
+      <div>News</div>
+    </>
+
   )
 }
 

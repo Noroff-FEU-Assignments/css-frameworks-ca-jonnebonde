@@ -5,6 +5,8 @@ $color-secondary: #767676;
 
 $color-links: #0A0A0A;
 
+$color-border: #D1D1D1;
+
 $color-background-primary: #FFFFFF;
 $color-background-secondary: #EFEFEF;
 
@@ -41,5 +43,14 @@ $nav-link-hover-color: $color-secondary;
 $nav-tabs-link-hover-border-color: transparent;
 $nav-tabs-link-active-border-color: #D1D1D1;
 $nav-tabs-link-active-color: $color-secondary;
+
+$accordion-border-color: none;
+$accordion-border-radius: 10px ;
+$accordion-button-color: $color-primary;
+$accordion-button-active-color: $color-primary;
+$accordion-button-active-bg: white;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+$accordion-button-focus-border-color: $color-primary;
 
 

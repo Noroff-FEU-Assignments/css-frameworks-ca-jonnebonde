@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 function Contact() {
+
+
+
   return (
-    <div>Contact</div>
+    <>
+      <Helmet>
+        <title>The YAY Company | Contact</title>
+      </Helmet>
+      <div>Contact</div>
+    </>
+
   )
 }
 
