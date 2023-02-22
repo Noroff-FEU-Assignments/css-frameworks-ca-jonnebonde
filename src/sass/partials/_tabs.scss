@@ -1,18 +1,21 @@
-.nav-item {
-
-.nav-link {
+.nav {
   border-bottom: none;
+  .nav-link {
+    border-bottom: none;
+  }
 }
 
-}
-
-.tab-content {
+.tab-pane {
   background-color: white;
   padding: 2em 2em 4em 2em;
-  border-radius: 0 10px 10px 10px;
   border: 1px solid #D1D1D1;
+  border-radius: 10px;
   @include dropshadow(0, 6px, 22px, 0.06);
-  margin-top: -1px; 
+  margin-top: 0;
+
+  &:first-of-type {
+    border-top-left-radius: 0;
+  }
 
   img {
     width: 100%;

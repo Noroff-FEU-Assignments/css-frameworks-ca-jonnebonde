@@ -11,24 +11,15 @@ function homeTabs() {
       id="uncontrolled-tab-example"
       className=""
     >
-      <Tab eventKey="first" title="First">
-        <div className='d-flex'>
-          <img className='block-d' src={tabImages.tab1} alt="An old tv" />
-          <TabContent />
-        </div>
-      </Tab>
-      <Tab eventKey="second" title="Second">
-      <div className='d-flex'>
-          <img className='block-d' src={tabImages.tab2} alt="A wall full of pictures" />
-          <TabContent />
-        </div>
-      </Tab>
-      <Tab eventKey="third" title="Third">
-      <div className='d-flex'>
-          <img className='block-d' src={tabImages.tab3} alt="A window on a rusty wall" />
-          <TabContent />
-        </div>
-      </Tab>
+      {tabImages.map((tab) => (
+        <Tab eventKey={tab.eventKey} title={tab.title}>
+          <div className='d-flex'>
+            <img className='block-d' src={tab.src} alt={tab.alt} />
+            <TabContent />
+          </div>
+        </Tab>
+      ))}
+
     </Tabs>
   )
 }

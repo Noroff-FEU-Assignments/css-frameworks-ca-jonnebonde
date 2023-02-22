@@ -9,7 +9,6 @@ import Accordion from './accordion/Accordion';
 
 function Home() {
 
-
   return (
     <>
       <Helmet>
@@ -21,11 +20,10 @@ function Home() {
         <div className='d-md-none d-block'>
           <Accordion />
         </div>
-          <div className='d-none d-md-block'>
-            <HomeTabs />
-          </div>
+        <div className='d-none d-md-block'>
+          <HomeTabs />
+        </div>
       </Container>
-
     </>
   )
 }
