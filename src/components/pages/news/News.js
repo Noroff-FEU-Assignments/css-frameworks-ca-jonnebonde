@@ -1,5 +1,9 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import PageHeading from '../../shared/pageheading/PageHeading';
+import Pagination from './pagination/Pagination';
+import Newscards from './newscards/Newscards';
 
 function News() {
   return (
@@ -7,7 +11,13 @@ function News() {
       <Helmet>
         <title>The YAY Company | News</title>
       </Helmet>
-      <div>News</div>
+      <Container>
+        <PageHeading>News</PageHeading>
+        <Pagination />
+        <Newscards />
+        <Pagination />
+      </Container>
+      
     </>
 
   )

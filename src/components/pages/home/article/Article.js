@@ -1,11 +1,9 @@
 import React from 'react';
-import Heading from './heading/Heading';
 import Content from './content/Content';
 
 function Article() {
   return (
-      <div className='home__article-container mt-5 mb-5'>
-        <Heading />
+      <div className='home__article-container mb-5'>
         <Content />
       </div>
   )

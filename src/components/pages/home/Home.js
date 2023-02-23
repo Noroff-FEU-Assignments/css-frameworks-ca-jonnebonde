@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import PageHeading from '../../shared/pageheading/PageHeading';
 import Article from './article/Article';
 import Carousel from './carousel/Carousel';
 import Container from 'react-bootstrap/Container';
@@ -16,6 +17,7 @@ function Home() {
       </Helmet>
       <Carousel />
       <Container>
+        <PageHeading>We do YAY things</PageHeading>
         <Article />
         <div className='d-md-none d-block'>
           <Accordion />
