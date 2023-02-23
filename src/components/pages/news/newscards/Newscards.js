@@ -8,10 +8,10 @@ import Col from 'react-bootstrap/Col';
 function Newscards() {
   return (
   
-      <Row className='news__cards' lg={4} l={3}>
+      <Row className='news__cards row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-1'  >
         {newsImages.map((card) => (
-          <Col /* lg={3} md={6} sm={12} */>
-            <Card style={{ width: '18rem' }}>
+          <Col className="mb-3">
+            <Card className='' >
               <Card.Img variant="top" src={card.src} />
               <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
@@ -24,12 +24,9 @@ function Newscards() {
             </Card>
           </Col>
         ))}
-
-
       </Row>
-   
-
   )
 }
 
 export default Newscards
+

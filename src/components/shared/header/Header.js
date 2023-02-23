@@ -13,8 +13,8 @@ function Heading() {
 
   return (
     <Navbar bg="light" expand="md" className='' >
-      <Container>
-        <div className='nav-container-mobile'>
+      <Container className='nav__container'>
+        <div className='nav__container-mobile'>
         <Navbar.Brand href="/">
             The YAY Company
           </Navbar.Brand>

@@ -39,7 +39,6 @@ $carousel-indicator-opacity: 1;
 
 $nav-link-color: $color-primary;
 $nav-link-hover-color: $color-secondary;
-
 $nav-tabs-link-hover-border-color: transparent;
 $nav-tabs-link-active-border-color: #D1D1D1;
 $nav-tabs-link-active-color: $color-secondary;
@@ -54,4 +53,17 @@ $accordion-button-icon: none;
 $accordion-button-active-icon: none;
 $accordion-button-focus-border-color: $color-primary;
 
+$pagination-font-size: 16px !important;
+$pagination-color: $color-primary;
+$pagination-border-radius: 4px !important;
+$pagination-border-color: $color-primary;
+$pagination-focus-bg: white;
+$pagination-focus-color:  $color-primary;
+$pagination-hover-color: $color-background-primary;
+$pagination-hover-bg: $color-primary;
+$pagination-hover-border-color: $color-primary;
+$pagination-active-color: white;
+$pagination-active-bg: $color-primary;
+$pagination-active-border-color: $color-primary;
 
+$grid-gutter-width: 0;

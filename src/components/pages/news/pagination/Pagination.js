@@ -14,9 +14,9 @@ function PaginationNews() {
   }
 
   return (
-    <div>
-    <Pagination size='lg'>{items}</Pagination>
-  </div>
+    <>
+    <Pagination size='lg' className='mt-5 mb-5'>{items}</Pagination>
+  </>
   )
 }
 

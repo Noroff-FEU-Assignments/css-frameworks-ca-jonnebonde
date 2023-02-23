@@ -27,3 +27,9 @@ body {
   .wrapper {
     flex: 1 0 auto;
   }
+
+  @media (max-width: 768px) {
+    .container__width--mobile {
+      width: 90%;
+    }
+  }

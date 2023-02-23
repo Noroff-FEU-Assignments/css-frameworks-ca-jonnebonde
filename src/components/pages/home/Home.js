@@ -16,13 +16,13 @@ function Home() {
         <title>The YAY Company | Home</title>
       </Helmet>
       <Carousel />
-      <Container>
+      <Container className="container__width--mobile">
         <PageHeading>We do YAY things</PageHeading>
         <Article />
-        <div className='d-md-none d-block'>
+        <div className="d-md-none d-block">
           <Accordion />
         </div>
-        <div className='d-none d-md-block'>
+        <div className="d-none d-md-block">
           <HomeTabs />
         </div>
       </Container>

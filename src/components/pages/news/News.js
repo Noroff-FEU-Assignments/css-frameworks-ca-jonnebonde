@@ -11,7 +11,7 @@ function News() {
       <Helmet>
         <title>The YAY Company | News</title>
       </Helmet>
-      <Container>
+      <Container className="container__width--mobile">
         <PageHeading>News</PageHeading>
         <Pagination />
         <Newscards />
