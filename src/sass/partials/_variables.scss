@@ -22,6 +22,7 @@ $font-secondary: 'Playfair Display', serif;
 
 //customs
 
+$grid-gutter-width: 0;
 
 $theme-colors: (
   "light": $color-background-secondary,
@@ -66,4 +67,9 @@ $pagination-active-color: white;
 $pagination-active-bg: $color-primary;
 $pagination-active-border-color: $color-primary;
 
-$grid-gutter-width: 0;
+$card-border-color: none;
+$card-border-radius: 10px;
+$card-height: 394px;
+
+$card-cap-padding-y: 10px;
+
