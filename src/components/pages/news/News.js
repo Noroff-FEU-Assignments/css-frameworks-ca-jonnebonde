@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import { Helmet } from 'react-helmet';
 import PageHeading from '../../shared/pageheading/PageHeading';
 import Pagination from './pagination/Pagination';
@@ -17,9 +17,7 @@ function News() {
         <Newscards />
         <Pagination />
       </Container>
-      
     </>
-
   )
 }
 
