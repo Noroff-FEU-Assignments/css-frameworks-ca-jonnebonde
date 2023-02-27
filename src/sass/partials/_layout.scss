@@ -31,4 +31,10 @@ body {
     .container__width--mobile {
       width: 90%;
     }
+
+    .form__container {
+      flex-direction: column-reverse;
+    }
+
+
   }

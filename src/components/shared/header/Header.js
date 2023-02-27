@@ -12,7 +12,7 @@ function Heading() {
   const location = useLocation();
 
   return (
-    <Navbar bg="light" expand="md" className='' >
+    <Navbar bg="light" expand="lg" className='' >
       <Container className='nav__container'>
         <div className='nav__container-mobile'>
         <Navbar.Brand href="/">

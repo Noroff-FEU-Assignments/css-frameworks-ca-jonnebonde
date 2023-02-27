@@ -13,14 +13,18 @@ function Contact() {
       <Helmet>
         <title>The YAY Company | Contact</title>
       </Helmet>
-      <Container>
-        <Row className="row-cols-2">
-          <Col className="col-12">
-            <PageHeading>Submit Your Details</PageHeading></Col>
-          <Col>
+      <Container className="">
+        <Row className=" form__container row-cols-2 gap-4">
+          <Col className="col-12 d-md-block d-none">
+            <PageHeading>Submit Your Details</PageHeading>
+          </Col>
+          <Col className=" col-12 col-md-5">
             <DetailsForm />
           </Col>
-          <Col>
+          <Col className="col-12 d-md-none">
+            <PageHeading>Submit Your Details</PageHeading>
+          </Col>
+          <Col className="col-12 col-md-5">
             <ContactDetails />
           </Col>
         </Row>
