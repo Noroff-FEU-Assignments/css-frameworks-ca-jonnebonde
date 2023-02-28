@@ -18,13 +18,13 @@ function DetailsForm() {
         <Form.Group className="mb-3">
           <Form.Label htmlFor="website">Website</Form.Label>
           <InputGroup className="mb-3">
-            <InputGroup.Text id="basic-addon3" className="d-none">https://</InputGroup.Text>
+            <InputGroup.Text id="basic-addon3" className="d-none d-lg-block">https://</InputGroup.Text>
             <Form.Control id="website basic-addon3" />
           </InputGroup>
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="message">Message</Form.Label>
-          <Form.Control as="message" style={{ height: "100px" }} />
+          <Form.Control as="message" style={{ height: "244px" }} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Check

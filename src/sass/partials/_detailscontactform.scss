@@ -1,7 +1,5 @@
 .form__container {
-  
-
-  h1{
+  h1 {
     width: 90%;
 
     @media (max-width: 992px) {
@@ -9,7 +7,7 @@
     }
   }
 
-  form{
+  form {
     background: $color-background-secondary;
   }
 
@@ -18,4 +16,15 @@
     margin: 0 auto;
   }
 
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  i {
+    font-size: 30px;
+  }
 }
