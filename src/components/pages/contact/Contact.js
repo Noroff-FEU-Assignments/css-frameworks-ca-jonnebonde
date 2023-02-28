@@ -14,18 +14,15 @@ function Contact() {
         <title>The YAY Company | Contact</title>
       </Helmet>
       <Container className="">
-        <Row className=" form__container row-cols-2 gap-4">
-          <Col className="col-12 d-md-block d-none">
-            <PageHeading>Submit Your Details</PageHeading>
-          </Col>
-          <Col className=" col-12 col-md-5">
-            <DetailsForm />
-          </Col>
-          <Col className="col-12 d-md-none">
-            <PageHeading>Submit Your Details</PageHeading>
-          </Col>
-          <Col className="col-12 col-md-5">
+        <Row className=" form__container flex-lg-row-reverse">
+          <Col className="col-12 col-lg-6 order-lg-1">
             <ContactDetails />
+          </Col>
+          <Col className="col-12 order-lg-0">
+            <PageHeading>Submit Your Details</PageHeading>
+          </Col>
+          <Col className=" col-12 col-lg-6 order-lg-1">
+            <DetailsForm />
           </Col>
         </Row>
       </Container>
