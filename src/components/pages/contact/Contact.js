@@ -13,7 +13,7 @@ function Contact() {
       <Helmet>
         <title>The YAY Company | Contact</title>
       </Helmet>
-      <Container className="">
+      <Container>
         <Row className=" form__container flex-lg-row-reverse">
           <Col className="col-12 col-lg-6 order-lg-1">
             <ContactDetails />

@@ -27,23 +27,10 @@ body {
     flex: 1 0 auto;
   }
 
-  /* @media (max-width: 992px) {
-    .form__container {
-      flex-direction: column-reverse;
-    }
-  } */
-
   @media (max-width: 768px) {
     .container__width--mobile {
       width: 90%;
     }
-
-    .form__container {
-      width: 90%;
-      margin: 0 auto;
-      
-    }
-
     
   }
 

@@ -1,0 +1,21 @@
+.form__container {
+  
+
+  h1{
+    width: 90%;
+
+    @media (max-width: 992px) {
+      margin: 0 auto;
+    }
+  }
+
+  form{
+    background: $color-background-secondary;
+  }
+
+  fieldset {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}

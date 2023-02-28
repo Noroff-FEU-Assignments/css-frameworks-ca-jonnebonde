@@ -5,7 +5,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 
 function DetailsForm() {
   return (
-    <Form>
+    <Form className="detail-form__container">
       <fieldset>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="name">Name</Form.Label>
