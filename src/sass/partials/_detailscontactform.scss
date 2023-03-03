@@ -45,7 +45,18 @@
 
   }
 
-  .form-control {
-    border-radius: 4px !important;
+  .form-check {
+    display: flex;
+    align-items: center;
+
+
+    .form-check-input {
+      min-width: 33px;
+      min-height: 34px;
+      margin-right: 10px;
+    }
+  
   }
+
+ 
 }

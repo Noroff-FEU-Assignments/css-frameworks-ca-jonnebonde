@@ -4,7 +4,7 @@ import Table from 'react-bootstrap/Table';
 
 function ContactDetails() {
   return (
-    <Table size="sm">
+    <Table size="sm" className='details-info__container'>
       <thead>
       </thead>
       <tbody>
