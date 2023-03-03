@@ -7,7 +7,10 @@
 html,
 body {
   height: 100%;
-  @include gradient-radial($color-background-primary, $color-background-primary-gradient);
+  @include gradient-radial(
+    $color-background-primary,
+    $color-background-primary-gradient
+  );
 }
 
 #root {
@@ -23,14 +26,12 @@ body {
   margin-top: 2rem;
 }
 
-  .wrapper {
-    flex: 1 0 auto;
-  }
+.wrapper {
+  flex: 1 0 auto;
+}
 
-  @media (max-width: 768px) {
-    .container__width--mobile {
-      width: 90%;
-    }
-    
+@media (max-width: 768px) {
+  .container__width--mobile {
+    width: 90%;
   }
-
+}

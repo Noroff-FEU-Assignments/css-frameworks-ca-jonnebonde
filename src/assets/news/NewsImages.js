@@ -10,52 +10,52 @@ import news8 from "./news-8.jpg";
 const newsImages = [
   {
     src: news1,
-    alt: "News 1",
+    alt: "An old tv on a tv bench with a lit table lamp beside.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news2,
-    alt: "News 2",
+    alt: "A closeup photo of a an lens on a old camera.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news3,
-    alt: "News 3",
+    alt: "A closeup off an old tv.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news4,
-    alt: "News 4",
+    alt: "An antique photocamera on a table.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news5,
-    alt: "News 5",
+    alt: "The shell of an old tv on a table in a dirty shed",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news6,
-    alt: "News 6",
+    alt: "An pink polaroid camera with the blitz open.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news7,
-    alt: "News 7",
+    alt: "A cinema projector showing the film on reel.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
   },
   {
     src: news8,
-    alt: "News 8",
+    alt: "A closeup of an LP player.",
     title: "Nunc porttitor vel",
     description: "Nunc malesuada eget est fringilla dapibus.",
-  }
+  },
 ];
 
-export default newsImages
+export default newsImages;

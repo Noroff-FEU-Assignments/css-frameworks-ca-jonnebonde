@@ -1,9 +1,9 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { Helmet } from 'react-helmet';
-import PageHeading from '../../shared/pageheading/PageHeading';
-import Pagination from './pagination/Pagination';
-import Newscards from './newscards/Newscards';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import { Helmet } from "react-helmet";
+import PageHeading from "../../shared/pageheading/PageHeading";
+import Pagination from "./pagination/Pagination";
+import Newscards from "./newscards/Newscards";
 
 function News() {
   return (
@@ -18,7 +18,7 @@ function News() {
         <Pagination />
       </Container>
     </>
-  )
+  );
 }
 
-export default News
+export default News;

@@ -10,14 +10,13 @@
   form {
     background: $color-background-secondary;
     border-radius: 3px;
-      @include dropshadow(0, 6px, 6px, 0.04);
+    @include dropshadow(0, 6px, 6px, 0.04);
   }
 
   fieldset {
     width: 90%;
     margin: 0 auto;
     padding: 3rem 0;
-    
   }
 
   ul {
@@ -47,23 +46,17 @@
     }
 
     .detail-from__container {
-      
     }
-
   }
 
   .form-check {
     display: flex;
     align-items: center;
 
-
     .form-check-input {
       min-width: 33px;
       min-height: 34px;
       margin-right: 10px;
     }
-  
   }
-
- 
 }

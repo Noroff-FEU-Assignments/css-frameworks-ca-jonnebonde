@@ -2,7 +2,10 @@
   @include dropshadow(0px, 16px, 22px, 0.06);
 
   .accordion-body {
-    @include gradient-radial($color-background-primary, $color-background-secondary-gradient);
+    @include gradient-radial(
+      $color-background-primary,
+      $color-background-secondary-gradient
+    );
   }
 
   .show {
@@ -13,18 +16,15 @@
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    }
-  
-    button {
-      border-bottom: 1px solid $border-color;
-    }
+  }
 
+  button {
+    border-bottom: 1px solid $border-color;
+  }
 }
 
 .accordion-item:last-of-type {
-
   .accordion-body {
     border-radius: 0 0 10px 10px;
   }
-
 }

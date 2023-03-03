@@ -1,27 +1,23 @@
-import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 function Heading() {
-
   const location = useLocation();
 
   return (
-    <Navbar bg="light" expand="lg" className='' >
-      <Container className='nav__container'>
-        <div className='nav__container-mobile'>
-        <Navbar.Brand href="/">
-            The YAY Company
-          </Navbar.Brand>
+    <Navbar bg="light" expand="lg" className="">
+      <Container className="nav__container">
+        <div className="nav__container-mobile">
+          <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
         </div>
         <Navbar.Collapse id="navbarScroll">
-          <Nav  className="me-auto" activeKey={location.pathname}>
+          <Nav className="me-auto" activeKey={location.pathname}>
             <NavLink href="#home" to="/">
               Home
             </NavLink>
@@ -41,7 +37,7 @@ function Heading() {
             <Button variant="searchButton">Go</Button>
           </Form>
         </Navbar.Collapse>
-        </Container>
+      </Container>
     </Navbar>
   );
 }

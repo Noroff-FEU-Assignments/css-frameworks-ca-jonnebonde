@@ -1,12 +1,12 @@
-import React from 'react';
-import Content from './content/Content';
+import React from "react";
+import Content from "./content/Content";
 
 function Article() {
   return (
-      <div className='home__article-container mb-5'>
-        <Content />
-      </div>
-  )
+    <div className="home__article-container mb-5">
+      <Content />
+    </div>
+  );
 }
 
-export default Article
+export default Article;

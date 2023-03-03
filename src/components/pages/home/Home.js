@@ -1,15 +1,13 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import PageHeading from '../../shared/pageheading/PageHeading';
-import Article from './article/Article';
-import Carousel from './carousel/Carousel';
-import Container from 'react-bootstrap/Container';
-import HomeTabs from './tabs/Tabs';
-import Accordion from './accordion/Accordion';
-
+import React from "react";
+import { Helmet } from "react-helmet";
+import PageHeading from "../../shared/pageheading/PageHeading";
+import Article from "./article/Article";
+import Carousel from "./carousel/Carousel";
+import Container from "react-bootstrap/Container";
+import HomeTabs from "./tabs/Tabs";
+import Accordion from "./accordion/Accordion";
 
 function Home() {
-
   return (
     <>
       <Helmet>
@@ -27,7 +25,7 @@ function Home() {
         </div>
       </Container>
     </>
-  )
+  );
 }
 
 export default Home;
