@@ -32,9 +32,3 @@ function ContactDetails() {
 
 export default ContactDetails
 
-{/* <ul>
-<li>123 Some Street</li>
-<li>Somewhere</li>
-<li>Some City</li>
-<li>10000</li>
-</ul> */}

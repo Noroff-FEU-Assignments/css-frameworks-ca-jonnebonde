@@ -14,6 +14,7 @@
   fieldset {
     width: 90%;
     margin: 0 auto;
+    padding: 3rem 0;
   }
 
   ul {
@@ -26,5 +27,25 @@
 
   i {
     font-size: 30px;
+  }
+
+  .btn {
+    background-color: $color-secondary;
+    width: 100%;
+    color: white;
+    font: 22px medium;
+    height: 58px;
+
+    &:hover {
+      background-color: $color-primary;
+    }
+    &:focus {
+      background-color: $color-primary;
+    }
+
+  }
+
+  .form-control {
+    border-radius: 4px !important;
   }
 }
