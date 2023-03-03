@@ -9,12 +9,15 @@
 
   form {
     background: $color-background-secondary;
+    border-radius: 3px;
+      @include dropshadow(0, 6px, 6px, 0.04);
   }
 
   fieldset {
     width: 90%;
     margin: 0 auto;
     padding: 3rem 0;
+    
   }
 
   ul {
@@ -41,6 +44,10 @@
     }
     &:focus {
       background-color: $color-primary;
+    }
+
+    .detail-from__container {
+      
     }
 
   }

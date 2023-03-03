@@ -18,7 +18,7 @@ function Contact() {
           <Col className="col-12 col-lg-6 order-lg-1">
             <ContactDetails />
           </Col>
-          <Col className="col-12 order-lg-0">
+          <Col className="col-12 order-lg-0 mb-3">
             <PageHeading>Submit Your Details</PageHeading>
           </Col>
           <Col className=" col-12 col-lg-6 order-lg-1">
