@@ -1,6 +1,4 @@
 .card {
-  width: 95%;
-  max-width: 342px;
   min-width: 264px;
   @include dropshadow(0, 6px, 10px, 0.05);
 
@@ -31,4 +29,11 @@
     background-color: $color-secondary;
     border-radius: 0 4px 4px 0;
   }
+
+  @media (max-width: 768px) {
+    & {
+      max-width: 342px;
+    }
+  }
+
 }

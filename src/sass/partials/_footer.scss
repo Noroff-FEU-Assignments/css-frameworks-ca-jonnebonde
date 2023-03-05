@@ -1,12 +1,13 @@
 footer {
   flex-shrink: 0;
   background: white;
-  color: #919191;
+  color: $color-secondary;
   padding: 1em;
   margin-top: 4em;
+  min-height: 53px;
 
   a {
-    color: #919191;
+    color: $color-secondary;
     text-decoration: none;
   }
 
@@ -16,6 +17,11 @@ footer {
   }
 
   @media (max-width: 768px) {
+
+    & {
+      padding: 2em;
+    }
+
     .footer__icons {
       margin-bottom: 1rem;
     }
