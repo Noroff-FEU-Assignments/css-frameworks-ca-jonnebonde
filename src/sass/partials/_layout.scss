@@ -35,3 +35,19 @@ body {
     width: 90%;
   }
 }
+
+.container__width--mobile {
+  
+  @media (max-width: 1200px ) {
+    & {
+      max-width: 768px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    & {
+      width: 90%;
+    }
+  }
+
+}
