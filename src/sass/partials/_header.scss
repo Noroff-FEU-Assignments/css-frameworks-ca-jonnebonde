@@ -1,11 +1,11 @@
 .navbar {
-  @media (max-width: 992px) {
+  @media (max-width: $screen-xl-tablet) {
     .navbar-collapse {
       position: absolute;
       width: 100%;
       z-index: 999999;
       padding: 0;
-      top: 88.67px;
+      top: 87.07px;
       background-color: $color-background-secondary;
     }
 
@@ -73,6 +73,8 @@
 }
 
 .search-container {
+  position: relative;
+
   input {
     border: none;
     border-radius: 4px 0 0 4px;
@@ -81,5 +83,13 @@
   button {
     color: white;
     border-radius: 0 4px 4px 0;
+    position: absolute;
+    right: 0;
+    top: 1px;
+
+    @media (max-width: $screen-xl-tablet) {
+      position: relative;
+      top: 0;
+    }
   }
 }

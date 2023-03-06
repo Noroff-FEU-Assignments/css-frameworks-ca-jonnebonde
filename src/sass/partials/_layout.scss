@@ -30,7 +30,7 @@ body {
   flex: 1 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $screen-tablet) {
   .container__width--mobile {
     width: 90%;
   }
@@ -38,13 +38,13 @@ body {
 
 .container__width--mobile {
   
-  @media (max-width: 1200px ) {
+  @media (max-width: $screen-laptop) {
     & {
-      max-width: 768px;
+      max-width: $screen-tablet;
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: $screen-xl-tablet) {
     & {
       width: 90%;
     }

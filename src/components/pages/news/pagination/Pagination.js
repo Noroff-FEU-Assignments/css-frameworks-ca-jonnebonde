@@ -6,7 +6,7 @@ function PaginationNews() {
   let items = [];
   for (let number = 1; number <= 4; number++) {
     items.push(
-      <Pagination.Item key={number} active={number === active}>
+      <Pagination.Item key={number} active={number === active} href="/news">
         {number}
       </Pagination.Item>
     );

@@ -30,7 +30,7 @@
     border-radius: 0 4px 4px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $screen-tablet) {
     & {
       max-width: 342px;
     }
