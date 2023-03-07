@@ -4,16 +4,13 @@
   margin-top: 2em;
   font-weight: bold;
 
-  td {
-    padding-bottom: 20px;
-  }
-
-  tr {
-    margin-left: 10px;
-  }
-
   tr td:first-of-type {
     text-align: center;
+    width: 90px;
+  }
+
+  td {
+    padding-bottom: 20px;
   }
 
   ul {
@@ -26,5 +23,12 @@
 
   i {
     font-size: 30px;
+  }
+
+  @media (max-width: $screen-xl-tablet) {
+    tr td:first-of-type {
+      text-align: left;
+      width: 60px;
+    }
   }
 }
