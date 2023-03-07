@@ -6,7 +6,7 @@
       z-index: 999999;
       padding: 0;
       top: 87.07px;
-      background-color: $color-background-secondary;
+      background-color: $color-background-primary;
     }
 
     .nav__container {
@@ -39,6 +39,7 @@
       a {
         padding: 0.8em 3em;
         border-radius: 0;
+        font-size: 18px;
       }
     }
 
@@ -56,14 +57,14 @@
 }
 
 .active {
-  background-color: $color-background-primary;
+  background-color: $color-white;
 }
 
 .navbar-nav {
   a {
     color: $color-links;
     text-decoration: none;
-    padding: 4px 15px;
+    padding: 1px 15px;
     border-radius: 3px;
   }
 
@@ -81,14 +82,13 @@
   }
 
   button {
-    color: white;
+    color: $color-white;
     border-radius: 0 4px 4px 0;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 1px;
 
     @media (max-width: $screen-xl-tablet) {
-      position: relative;
       top: 0;
     }
   }

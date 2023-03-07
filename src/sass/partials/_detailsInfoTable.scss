@@ -4,7 +4,27 @@
   margin-top: 2em;
   font-weight: bold;
 
+  td {
+    padding-bottom: 20px;
+  }
+
+  tr {
+    margin-left: 10px;
+  }
+
   tr td:first-of-type {
     text-align: center;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  i {
+    font-size: 30px;
   }
 }

@@ -10,6 +10,7 @@
   button {
     border-radius: 2px;
     border: none !important;
+    @include dropshadow(0px, 3px, 6px, 1);
   }
 
   button:hover {

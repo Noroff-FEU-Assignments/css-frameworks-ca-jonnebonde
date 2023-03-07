@@ -8,7 +8,7 @@
   }
 
   form {
-    background: $color-background-secondary;
+    background: $color-background-primary;
     border-radius: 3px;
     @include dropshadow(0, 6px, 6px, 0.04);
   }
@@ -19,22 +19,19 @@
     padding: 3rem 0;
   }
 
-  ul {
-    padding: 0;
+  input:not(#FieldsetCheck) {
+    padding: 15px;
   }
 
-  li {
-    list-style: none;
-  }
-
-  i {
-    font-size: 30px;
+  span {
+    font-size: 17px;
+    padding: 14px;
   }
 
   .btn {
     background-color: $color-secondary;
     width: 100%;
-    color: white;
+    color: $color-white;
     font: 22px medium;
     height: 58px;
 
@@ -43,9 +40,6 @@
     }
     &:focus {
       background-color: $color-primary;
-    }
-
-    .detail-from__container {
     }
   }
 
@@ -57,6 +51,13 @@
       min-width: 33px;
       min-height: 34px;
       margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: $screen-xl-tablet) {
+    .form-control {
+      border-radius: 4px !important;
     }
   }
 }

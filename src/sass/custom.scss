@@ -7,7 +7,7 @@ $grid-gutter-width: 0;
 // Colors
 
 $theme-colors: (
-  "light": $color-background-secondary,
+  "light": $color-background-primary,
   "searchButton": $color-primary,
 );
 
@@ -17,8 +17,13 @@ $font-family-sans-serif: $font-primary;
 
 // Navbar
 
-$navbar-light-toggler-border-color: $color-background-secondary;
+$navbar-light-toggler-border-color: $color-background-primary;
 $navbar-toggler-focus-width: 0;
+
+// Button
+
+$btn-border-radius: 4px;
+$btn-border-width: none;
 
 // Carousel
 
@@ -41,7 +46,7 @@ $accordion-border-color: none;
 $accordion-border-radius: 10px;
 $accordion-button-color: $color-primary;
 $accordion-button-active-color: $color-primary;
-$accordion-button-active-bg: white;
+$accordion-button-active-bg: $color-white;
 $accordion-button-icon: none;
 $accordion-button-active-icon: none;
 $accordion-button-focus-border-color: $color-primary;
@@ -54,14 +59,14 @@ $pagination-color: $color-primary;
 $pagination-border-radius: 4px !important;
 $pagination-border-color: $color-primary;
 
-$pagination-focus-bg: white;
+$pagination-focus-bg: $color-white;
 $pagination-focus-color: $color-primary;
 
-$pagination-hover-color: $color-background-primary;
+$pagination-hover-color: $color-white;
 $pagination-hover-bg: $color-primary;
 $pagination-hover-border-color: $color-primary;
 
-$pagination-active-color: white;
+$pagination-active-color: $color-white;
 $pagination-active-bg: $color-primary;
 $pagination-active-border-color: $color-primary;
 
@@ -80,11 +85,13 @@ $form-label-font-size: 20px;
 $form-label-font-weight: medium;
 $form-label-color: $color-secondary;
 
+$input-font-size: 17px ;
 $input-border-color: transparent;
 $input-border-radius: 4px;
 
-$input-group-addon-color: white;
+$input-group-addon-color: $color-white;
 $input-group-addon-bg: $color-form-website-input;
+
 
 $form-check-input-bg: $color-primary;
 $form-check-input-border: none;

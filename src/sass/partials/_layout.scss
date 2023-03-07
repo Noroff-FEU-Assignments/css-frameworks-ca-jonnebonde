@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   @include gradient-radial(
-    $color-background-primary,
+    $color-white,
     $color-background-primary-gradient
   );
 }

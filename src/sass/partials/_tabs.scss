@@ -6,9 +6,9 @@
 }
 
 .tab-pane {
-  background-color: white;
+  background-color: $color-white;
   padding: 2em 2em 4em 2em;
-  border: 1px solid #d1d1d1;
+  border: 1px solid $color-border;
   border-radius: 10px;
   @include dropshadow(0, 6px, 22px, 0.06);
   margin-top: 0;

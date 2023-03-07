@@ -3,7 +3,7 @@
 
   .accordion-body {
     @include gradient-radial(
-      $color-background-primary,
+      $color-white,
       $color-background-secondary-gradient
     );
   }

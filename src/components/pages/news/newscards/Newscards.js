@@ -12,7 +12,7 @@ function Newscards() {
           <Col>
             <Card>
               <Card.Img variant="top" src={card.src} />
-              <Card.Body>
+              <Card.Body className="d-flex flex-column justify-content-around">
                 <Card.Title>{card.title}</Card.Title>
                 <Card.Text>{card.description}</Card.Text>
                 <Button variant="primary">MORE</Button>
