@@ -30,6 +30,7 @@ function DetailsForm() {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Check
+          className="d-flex align-items-center"
             type="checkbox"
             id="FieldsetCheck"
             label="Allow us to sell your personal details to whomever we want"

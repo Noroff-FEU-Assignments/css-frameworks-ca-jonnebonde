@@ -36,6 +36,7 @@ $carousel-indicator-opacity: 1;
 $nav-link-color: $color-primary;
 $nav-link-hover-color: $color-secondary;
 $nav-tabs-link-hover-border-color: transparent;
+
 $nav-tabs-link-active-border-color: $color-border;
 $nav-tabs-link-active-color: $color-secondary;
 $nav-tabs-border-radius: 10px;
@@ -45,9 +46,11 @@ $nav-tabs-border-radius: 10px;
 $accordion-border-color: none;
 $accordion-border-radius: 10px;
 $accordion-button-color: $color-primary;
+
 $accordion-button-active-color: $color-primary;
 $accordion-button-active-bg: $color-white;
 $accordion-button-icon: none;
+
 $accordion-button-active-icon: none;
 $accordion-button-focus-border-color: $color-primary;
 
@@ -55,10 +58,9 @@ $accordion-button-focus-border-color: $color-primary;
 
 $pagination-font-size: 16px !important;
 $pagination-color: $color-primary;
-
 $pagination-border-radius: 4px !important;
-$pagination-border-color: $color-primary;
 
+$pagination-border-color: $color-primary;
 $pagination-focus-bg: $color-white;
 $pagination-focus-color: $color-primary;
 
@@ -92,12 +94,11 @@ $input-border-radius: 4px;
 $input-group-addon-color: $color-white;
 $input-group-addon-bg: $color-form-website-input;
 
-
 $form-check-input-bg: $color-primary;
 $form-check-input-border: none;
 $form-check-input-border-radius: 4px;
-$form-check-input-checked-bg-color: $color-primary;
 
+$form-check-input-checked-bg-color: $color-primary;
 $form-check-label-color: $color-secondary;
 
 // Contact info - Table
