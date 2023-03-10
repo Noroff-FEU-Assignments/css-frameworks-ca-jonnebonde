@@ -26,14 +26,10 @@
 }
 
 .tab__text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   padding: 0 2rem;
 }
 
 .tablinks__container {
-  display: flex;
   gap: 1rem;
   color: $color-links;
 

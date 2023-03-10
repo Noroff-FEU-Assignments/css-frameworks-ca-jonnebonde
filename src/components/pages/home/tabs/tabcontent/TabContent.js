@@ -4,7 +4,7 @@ import TabLinks from "./tablinks/TabLinks";
 
 function TabContent() {
   return (
-    <div className="tab__text-container">
+    <div className="tab__text-container d-flex flex-column justify-content-between">
       <TabText />
       <TabLinks />
     </div>

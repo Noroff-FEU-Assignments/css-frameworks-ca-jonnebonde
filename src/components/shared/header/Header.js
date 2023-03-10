@@ -12,7 +12,7 @@ function Heading() {
   return (
     <Navbar bg="light" expand="lg" className="">
       <Container className="nav__container">
-        <div className="nav__container-mobile">
+        <div className="nav__container-mobile d-flex justify-content-between">
           <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
         </div>
