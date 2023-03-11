@@ -1,5 +1,22 @@
 # CSS Frameworks Course Assignment
 
+## Project Setup
+
+### Installing project
+
+```bash
+npm install
+
+```
+
+### Start development server
+
+```bash
+npm start
+
+```
+
+
 ## Brief
 
 From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.
@@ -31,6 +48,4 @@ The design and additional files can be found in this repo.
 - When you accepted this submission, a repository was created for you. Use this repository for your code and submit a link to this repo when you deliver.
 - Remember to EXCLUDE the node_modules folder if you use React or any npm packages
 
-## Time
 
-40 hours
