@@ -8,7 +8,7 @@ function AccordionTabs() {
   return (
     <Accordion defaultActiveKey="0">
       {tabImages.map((accordion, index) => (
-        <Accordion.Item eventKey={index.toString()}>
+        <Accordion.Item eventKey={index.toString()} key={index}>
           <Accordion.Header>{accordion.title}</Accordion.Header>
           <Accordion.Body>
             <TabText />

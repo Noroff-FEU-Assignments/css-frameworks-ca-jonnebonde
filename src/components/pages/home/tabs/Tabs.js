@@ -7,8 +7,8 @@ import TabContent from "./tabcontent/TabContent";
 function homeTabs() {
   return (
     <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="">
-      {tabImages.map((tab) => (
-        <Tab eventKey={tab.eventKey} title={tab.title}>
+      {tabImages.map((tab, index) => (
+        <Tab eventKey={tab.eventKey} title={tab.title} key={index}>
           <div className="d-flex">
             <img className="block-d" src={tab.src} alt={tab.alt} />
             <TabContent />

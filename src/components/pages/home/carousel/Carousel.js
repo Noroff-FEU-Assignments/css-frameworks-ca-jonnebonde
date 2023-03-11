@@ -5,8 +5,8 @@ import carouselImages from "../../../../assets/carousel/CarouselImages";
 function ImageSlider() {
   return (
     <Carousel interval={null} controls={false} defaultActiveIndex={1}>
-      {carouselImages.map((image) => (
-        <Carousel.Item>
+      {carouselImages.map((image, index) => (
+        <Carousel.Item key={index}>
           <img className="d-block w-100" src={image.src} alt={image.alt} />
         </Carousel.Item>
       ))}
