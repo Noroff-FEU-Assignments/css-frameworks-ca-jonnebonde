@@ -17,13 +17,13 @@
     .nav__container-mobile {
       margin: 0 auto;
       width: 90%;
-      padding: 1em 0;
+      padding: 1rem 0;
     }
 
     form {
       width: 90%;
       margin: 0 auto;
-      padding: 3em 0;
+      padding: 3rem 0;
 
       input {
         height: 50px;
@@ -35,7 +35,7 @@
 
     .navbar-nav {
       a {
-        padding: 0.8em 3em;
+        padding: 0.8rem 3rem;
         border-radius: 0;
         font-size: 18px;
       }
@@ -47,7 +47,7 @@
   }
 
   .navbar-brand {
-    margin-right: 1em;
+    margin-right: 1rem;
     color: $color-primary;
     text-decoration: none;
     font: italic bold 20px $font-secondary;
