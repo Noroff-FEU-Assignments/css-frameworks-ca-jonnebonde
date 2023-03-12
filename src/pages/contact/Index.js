@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import PageHeading from "../../shared/pageheading/PageHeading";
-import DetailsForm from "./details-form/DetailsForm";
-import ContactDetails from "./contact-details/ContactDetails";
+import PageHeading from "../../components/shared/pageheading/PageHeading";
+import DetailsForm from "../../components/details-form/DetailsForm";
+import ContactDetails from "../../components/contact-details/ContactDetails";
 
 function Contact() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import tabImages from "../../../../assets/tab/TabImages";
+import tabImages from "../../assets/tab/TabImages";
 import TabLinks from "../tabs/tabcontent/tablinks/TabLinks";
 import TabText from "../tabs/tabcontent/tabtext/TabText";
 

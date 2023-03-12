@@ -1,7 +1,7 @@
 import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import tabImages from "../../../../assets/tab/TabImages";
+import tabImages from "../../assets/tab/TabImages";
 import TabContent from "./tabcontent/TabContent";
 
 function homeTabs() {

@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { Helmet } from "react-helmet";
-import PageHeading from "../../shared/pageheading/PageHeading";
-import Pagination from "./pagination/Pagination";
-import Newscards from "./newscards/Newscards";
+import PageHeading from "../../components/shared/pageheading/PageHeading";
+import Pagination from "../../components/pagination/Pagination";
+import Newscards from "../../components/newscards/Newscards";
 
 function News() {
   return (

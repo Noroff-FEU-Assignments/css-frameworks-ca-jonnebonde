@@ -2,9 +2,9 @@ import React from "react";
 import "./sass/style.scss";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/shared/header/Header";
-import Home from "./components/pages/home/Home";
-import News from "./components/pages/news/News";
-import Contact from "./components/pages/contact/Contact";
+import Home from "./pages/home/Index";
+import News from "./pages/news/Index";
+import Contact from "./pages/contact/Index";
 import Footer from "./components/shared/footer/Footer";
 
 function App() {
