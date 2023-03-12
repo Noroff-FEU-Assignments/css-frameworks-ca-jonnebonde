@@ -2,6 +2,14 @@
 
 ## Project Setup
 
+
+### Clone Repo
+
+```bash
+https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-jonnebonde.git
+
+```
+
 ### Installing project
 
 ```bash
