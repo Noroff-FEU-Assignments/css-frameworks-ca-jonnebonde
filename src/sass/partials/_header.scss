@@ -84,7 +84,7 @@
     border-radius: 0 4px 4px 0;
     position: relative;
     right: 0;
-    top: 1px;
+    top: 1px; /* I know this may be stupid but i couldnt let it go that it is 1px offset in the design */
 
     @media (max-width: $screen-xl-tablet) {
       top: 0;
