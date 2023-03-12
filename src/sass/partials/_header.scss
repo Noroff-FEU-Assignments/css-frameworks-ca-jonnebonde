@@ -14,7 +14,7 @@
       max-width: 100%;
     }
 
-    .nav__container-mobile {
+    .nav__container--mobile {
       margin: 0 auto;
       width: 90%;
       padding: 1rem 0;
@@ -71,7 +71,7 @@
   }
 }
 
-.search-container {
+.search__container {
   position: relative;
 
   input {

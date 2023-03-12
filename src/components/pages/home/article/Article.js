@@ -3,7 +3,7 @@ import Content from "./content/Content";
 
 function Article() {
   return (
-    <div className="home__article-container mb-5">
+    <div className="mb-5">
       <Content />
     </div>
   );

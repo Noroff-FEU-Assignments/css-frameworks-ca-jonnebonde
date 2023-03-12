@@ -24,12 +24,12 @@ body {
 }
 
 @media (max-width: $screen-tablet) {
-  .container__width--mobile {
+  .mobile-width__container {
     width: 90%;
   }
 }
 
-.container__width--mobile {
+.mobile-width__container {
   
   @media (max-width: $screen-laptop) {
     & {

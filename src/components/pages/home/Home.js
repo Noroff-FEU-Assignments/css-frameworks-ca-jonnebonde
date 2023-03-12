@@ -14,7 +14,7 @@ function Home() {
         <title>The YAY Company | Home</title>
       </Helmet>
       <Carousel />
-      <Container className="container__width--mobile">
+      <Container className="mobile-width__container">
         <PageHeading>We do YAY things</PageHeading>
         <Article />
         <div className="d-md-none d-block">
