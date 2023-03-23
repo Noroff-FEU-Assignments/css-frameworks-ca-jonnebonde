@@ -10,7 +10,7 @@ function Newscards() {
       <Row className="g-4"  xxl={4} xl={3} md={2} sm={1} xs={1}>
         {newsImages.map((card, index) => (
           <Col>
-            <Card key={index}>
+            <Card key={index} className>
               <Card.Img variant="top" src={card.src} />
               <Card.Body className="d-flex flex-column justify-content-around">
                 <Card.Title>{card.title}</Card.Title>
